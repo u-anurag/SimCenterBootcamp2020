@@ -12,5 +12,7 @@ Welcome to Programming Bootcamp 2020's documentation!
 
    source/syllabus
    source/setupInstructions
+   source/resources
+   source/emacs
    source/help
 

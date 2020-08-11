@@ -36,7 +36,7 @@
   <link rel="stylesheet" href="../_static/css/custom.css" type="text/css" />
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Questions, Issues" href="help.html" />
+    <link rel="next" title="Additional Resources" href="resources.html" />
     <link rel="prev" title="Syllabus" href="syllabus.html" /> 
 </head>
 
@@ -103,8 +103,15 @@
 </li>
 </ul>
 </li>
+<li class="toctree-l2"><a class="reference internal" href="#known-installation-issues">Known installation issues</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#windows">Windows</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#macos">MacOS</a></li>
 </ul>
 </li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="resources.html">Additional Resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="emacs.html">Emacs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="help.html">Questions, Issues</a></li>
 </ul>
 
@@ -338,6 +345,41 @@
 </div>
 </div>
 </div>
+<div class="section" id="known-installation-issues">
+<h2>Known installation issues<a class="headerlink" href="#known-installation-issues" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="windows">
+<h3>Windows<a class="headerlink" href="#windows" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Failure to install fiona package</p></li>
+</ol>
+<div class="align-center figure" id="id7">
+<img alt="../_images/installIssue1.png" src="../_images/installIssue1.png" />
+<p class="caption"><span class="caption-text">Reported installation error message</span><a class="headerlink" href="#id7" title="Permalink to this image">¶</a></p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>It appears that the gdal package is the source of the problem. We recommend downloading the
+<strong>gdal</strong> and <strong>fiona</strong> packages closest to your system configuration from</p>
+<ul class="simple">
+<li><p>gdal: <a class="reference external" href="https://www.lfd.uci.edu/~gohlke/pythonlibs/#gdal">https://www.lfd.uci.edu/~gohlke/pythonlibs/#gdal</a></p></li>
+<li><p>fiona: <a class="reference external" href="https://www.lfd.uci.edu/~gohlke/pythonlibs/#fiona">https://www.lfd.uci.edu/~gohlke/pythonlibs/#fiona</a></p></li>
+</ul>
+<p>Install those packages using</p>
+<ul class="simple">
+<li><p><strong>with anaconda installation</strong></p></li>
+</ul>
+<p>conda install gdal*.whl fiona*.whl</p>
+<ul class="simple">
+<li><p><strong>python.org installation</strong></p></li>
+</ul>
+<p>sudo pip install gdal*.whl fiona*.whl</p>
+</div>
+</div>
+<div class="section" id="macos">
+<h3>MacOS<a class="headerlink" href="#macos" title="Permalink to this headline">¶</a></h3>
+<p>No problems reported so far.</p>
+</div>
+</div>
 </div>
 
 
@@ -348,7 +390,7 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="help.html" class="btn btn-neutral float-right" title="Questions, Issues" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="resources.html" class="btn btn-neutral float-right" title="Additional Resources" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="syllabus.html" class="btn btn-neutral float-left" title="Syllabus" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
